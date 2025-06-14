@@ -39,6 +39,12 @@ android {
     }
 }
 
+dependencies {
+    // ARCore Depth API
+    implementation("com.google.ar:core:1.40.0")
+}
+
+
 flutter {
     source = "../.."
 }
